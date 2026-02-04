@@ -1,4 +1,4 @@
-import "../styles/portal.css";
+import "../styles/Portal.css";
 import { useNavigate } from "react-router-dom";
 
 function Portal() {
