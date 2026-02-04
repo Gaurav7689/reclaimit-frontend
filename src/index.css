@@ -1,0 +1,294 @@
+/* ===== GLOBAL ===== */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  padding: 20px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #1e293b;
+  color: white;
+}
+
+.nav-left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-right button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-right button:hover {
+  background-color: #2563eb;
+}
+
+.logout {
+  background-color: #ef4444 !important;
+}
+
+.logout:hover {
+  background-color: #dc2626 !important;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FORMS ===== */
+input,
+select {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #22c55e;
+  color: white;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
+/* ===== FORM CARD ===== */
+.form-card {
+  max-width: 420px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== FORM GROUP ===== */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #22c55e;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #16a34a;
+}
+.card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.contact-buttons a:hover {
+  text-decoration: underline;
+}
+/* ===== AUTH PAGES ===== */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+}
+
+.auth-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.auth-group label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.auth-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.auth-link-btn {
+  width: 100%;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.auth-link-btn:hover {
+  text-decoration: underline;
+}
+
+.auth-msg {
+  text-align: center;
+  margin-top: 10px;
+  color: green;
+}
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #1f2933;
+}
+
+.nav-left button,
+.nav-right button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-left button:last-child {
+  margin-right: 0;
+}
+
+.nav-left {
+  display: flex;
+  gap: 10px;
+}
+
+.logout-btn {
+  background-color: #dc2626;
+}
+
+.logout-btn:hover {
+  background-color: #b91c1c;
+}
+
+.nav-left button:hover {
+  background-color: #1d4ed8;
+}
+.side-btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: #1e88e5;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.stat-card {
+  padding: 20px;
+  background: #1e88e5;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}

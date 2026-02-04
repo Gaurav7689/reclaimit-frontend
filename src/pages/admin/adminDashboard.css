@@ -1,0 +1,89 @@
+/* ===== LAYOUT ===== */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9; /* light gray background */
+}
+
+.admin-main {
+  flex: 1;
+  padding: 40px;
+}
+
+/* ===== HEADER ===== */
+.admin-header {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  padding: 28px 32px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.admin-header p {
+  margin-top: 6px;
+  font-size: 15px;
+  color: #e5e7eb; /* 🔧 FIXED */
+}
+
+/* ===== GRID ===== */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+/* ===== CARD ===== */
+.stat-card {
+  background: #ffffff; /* pure white */
+  border-radius: 14px;
+  padding: 26px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* hover */
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== ICON ===== */
+.stat-icon {
+  font-size: 38px;
+}
+
+/* ===== TEXT ===== */
+.stat-info h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827; /* 🔧 DARK TEXT */
+}
+
+.stat-info span {
+  font-size: 14px;
+  color: #374151; /* 🔧 FIXED CONTRAST */
+}
+
+/* ===== COLOR BORDERS ===== */
+.stat-card.items {
+  border-left: 6px solid #2563eb;
+}
+
+.stat-card.reports {
+  border-left: 6px solid #dc2626;
+}
+
+.stat-card.users {
+  border-left: 6px solid #16a34a;
+}
